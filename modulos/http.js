@@ -17,5 +17,6 @@ function router(req,res){
             res.write('error 404: no se lo que quieres');
             res.end();
     }
-
 }
+
+console.log('escuchando http en el puerto 3000');
